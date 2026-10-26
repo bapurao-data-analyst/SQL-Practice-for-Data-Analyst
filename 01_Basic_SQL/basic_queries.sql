@@ -6,6 +6,7 @@
 -- =====================================================
 
 -- Create Employee Table
+
 CREATE TABLE employees (
 employee_id INT PRIMARY KEY,
 employee_name VARCHAR(50),
@@ -14,6 +15,7 @@ salary DECIMAL(10,2)
 );
 
 -- Insert Sample Data
+
 INSERT INTO employees
 (employee_id, employee_name, department, salary)
 VALUES
